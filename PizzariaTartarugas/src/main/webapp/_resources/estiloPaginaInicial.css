@@ -1,0 +1,241 @@
+body {
+    background: url(../_imagens/background.jpg) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'Subway'; /*a name to be used later*/
+    src: url('../_fonts/Subway-Black.ttf'); /*URL to font*/
+}
+
+hr.style6 {
+	background-color: #ebebeb;
+	border-top: 2px dotted #6D6D6D;
+}
+
+@media (min-width: 740px) {
+  #menu ul {
+      padding: 0px;
+      margin: 0px;
+      float: left;
+      width: 100%;
+      height: 80px;
+      background-color: #ebebeb;
+      list-style: none;
+      opacity: .9;
+      position: fixed;
+      z-index: 20;
+  }
+
+  #menu ul li {
+      display: inline;
+  }
+
+  #menu ul li button {
+      background-color: #ebebeb;
+      color: #251d1d;
+      text-decoration: none;
+      height: 100%;
+      float: left;
+      width: 13%;
+      font-size: 20px;
+      font-weight: bold;
+      transition: 1s;
+      border: none;
+  }
+
+  #menu ul li button:hover {
+      background-color: #D6D6D6;
+      color: #6D6D6D;
+  }
+
+  #faixa-contato {
+    background-color: #242424;
+  }
+
+  #pazza-first {
+    padding-top: 90px;
+  }
+}
+
+@media (max-width: 739px) {
+  #menu ul {
+      padding: 0px;
+      margin: 0px;
+      float: left;
+      background-color: #ebebeb;
+      list-style: none;
+      opacity: .9;
+      z-index: 20;
+  }
+
+  #menu ul li button {
+      background-color: #ebebeb;
+      color: #251d1d;
+      text-decoration: none;
+      height: 40px;
+      float: left;
+      width: 100%;
+      font-weight: bold;
+      transition: 1s;
+      border: none;
+  }
+
+  #menu ul li button:hover {
+      background-color: #D6D6D6;
+      color: #6D6D6D;
+  }
+
+  #faixa-contato {
+    background-color: #242424;
+  }
+
+  #faixa-contato {
+    display: none;
+  }
+}
+
+#img-full {
+  padding: 0;
+}
+
+#imagem-pizza-1 {
+  width: 100%;
+}
+
+#carouselExampleIndicators {
+  padding: 0;
+}
+
+#pazza-first h1 {
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+#pazza-first h2 {
+  font-size: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+#faixa-contato h2 {
+  color: white;
+}
+
+#faixa-contato h3 {
+  color: white;
+}
+
+#faixa-contato a {
+  color: white;
+  white-space: nowrap;
+}
+
+.imagens-carousel {
+  width: 100%;
+}
+
+#pazza-first {
+  background-color: #0fafff;
+}
+
+.font-subway {
+  font-family: 'Subway';
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #fff;
+  color: red;
+}
+
+.font-norican {
+  font-family: 'Norican', cursive;
+  color: white;
+}
+
+.font-kalam {
+  font-family: 'Kalam', cursive;
+}
+
+#content-nossacasa {
+  padding-top: 40px;
+}
+
+#content-nossacasa img {
+  max-width: 100%;
+}
+
+#fachada {
+  padding: 20px;
+}
+
+.sessoes-estilo {
+  background-color: white;
+  opacity: 0.9;
+}
+
+.sessoes-posicao {
+  float: none;
+  padding-top: 50px;
+  margin: auto;
+}
+
+.paineis {
+  margin-top: 25px;
+  padding: 10px;
+}
+
+.botoes-cardapio {
+  border: none;
+  background-color: transparent;
+  color: red;
+  font-size: 40px;
+  margin: 40px auto;
+  display: block;
+  transition: 1s;
+}
+
+.botoes-cardapio:hover {
+  color: gray;
+  font-size: 42px;
+}
+
+.cardapios {
+  list-style: none;
+}
+
+.titulopreco {
+  font-family: 'Lato', sans-serif;
+}
+
+.titulopreco * {
+}
+
+.titulo {
+  color: red;
+  float: left;
+}
+
+.preco {
+  color: green;
+  float: right;
+}
+
+.descricao {
+  clear: both;
+}
+
+#sessaocontato {
+  background-color: #242424;
+  color: #c7c7c7;
+}
+#sessaocontato a {
+  color: #c7c7c7;
+}
+
+#telefones-contato {
+  color: #c7c7c7;
+  text-decoration: none;
+}
