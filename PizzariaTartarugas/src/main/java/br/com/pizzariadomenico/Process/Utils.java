@@ -38,16 +38,16 @@ public class Utils {
         return pizzas;
     }
     
-    public static List<Produto> ListarPizzasPaginaInicialCalzones() throws Exception {
+    public static List<Produto> ListarPizzasPaginaInicialBordas() throws Exception {
         List<Produto> pizzas = new ArrayList<>();
-        pizzas = br.com.pizzariadomenico.Daos.DaoProduto.listarPaginaInicialCalzone();
+        pizzas = br.com.pizzariadomenico.Daos.DaoProduto.listarPaginaInicialBorda();
 
         return pizzas;
     }
     
-    public static List<Produto> ListarPizzasPaginaInicialNovidade() throws Exception {
+    public static List<Produto> ListarPizzasPaginaInicialQuatros() throws Exception {
         List<Produto> pizzas = new ArrayList<>();
-        pizzas = br.com.pizzariadomenico.Daos.DaoProduto.listarPaginaInicialNovidades();
+        pizzas = br.com.pizzariadomenico.Daos.DaoProduto.listarPaginaInicialQuatro();
 
         return pizzas;
     }

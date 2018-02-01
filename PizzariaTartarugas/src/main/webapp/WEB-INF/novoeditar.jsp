@@ -28,9 +28,9 @@
                       <label for="tipoProduto">Tipo</label>
                       <select class="form-control" name="tipo">
                           <option value="PIZZA" ${produto.tipo == 'PIZZA' ? 'selected' : ''}>Pizza</option>
+                          <option value="QUATRO" ${produto.tipo == 'QUATRO' ? 'selected' : ''}>Quatro Queijos</option>
                           <option value="DOCE" ${produto.tipo == 'DOCE' ? 'selected' : ''}>Pizza Doce</option>
-                          <option value="CALZONE" ${produto.tipo == 'CALZONE' ? 'selected' : ''}>Calzone</option>
-                          <option value="NOVIDADE" ${produto.tipo == 'NOVIDADE' ? 'selected' : ''}>Novidade</option>
+                          <option value="BORDA" ${produto.tipo == 'BORDA' ? 'selected' : ''}>Borda</option>
                           <option value="PROMOCAO" ${produto.tipo == 'PROMOCAO' ? 'selected' : ''}>Promoção</option>
                       </select>
                   </div>

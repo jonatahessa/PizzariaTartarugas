@@ -3,7 +3,6 @@ function main() {
   document.querySelector("#buttonpromocoes").addEventListener("click", promocao);
   document.querySelector("#buttonnossacasa").addEventListener("click", nossacasa);
   document.querySelector("#buttoncardapio").addEventListener("click", cardapio);
-  document.querySelector("#buttonnovidades").addEventListener("click", novidades);
   document.querySelector("#buttonlocalizacao").addEventListener("click", localizacao);
   document.querySelector("#buttoncontato").addEventListener("click", scrollcontato);
 }
@@ -22,10 +21,6 @@ function promocao() {
 
 function cardapio() {
   document.querySelector("#sessaocardapio").scrollIntoView();
-}
-
-function novidades() {
-  document.querySelector("#sessaonovidades").scrollIntoView();
 }
 
 function localizacao() {

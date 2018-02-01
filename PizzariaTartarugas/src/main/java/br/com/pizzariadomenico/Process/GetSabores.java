@@ -30,8 +30,8 @@ public class GetSabores extends HttpServlet {
         response.setCharacterEncoding("UTF-8");
         List<Produto> pizzas = Utils.ListarPizzasPaginaInicialPizzas();
         List<Produto> doces = Utils.ListarPizzasPaginaInicialDoces();
-        List<Produto> calzones = Utils.ListarPizzasPaginaInicialCalzones();
-        List<Produto> novidades = Utils.ListarPizzasPaginaInicialNovidade();
+        List<Produto> bordas = Utils.ListarPizzasPaginaInicialBordas();
+        List<Produto> quatros = Utils.ListarPizzasPaginaInicialQuatros();
         List<Produto> promocao = Utils.ListarPizzasPaginaInicialPromocoes();
         
         if (promocao != null) {
@@ -40,17 +40,10 @@ public class GetSabores extends HttpServlet {
                 prod.setDescricao(promoConvert);
             }
         }
-        
-        if (novidades != null) {
-            for (Produto nov : novidades) {
-                String promoConvert = nov.getDescricao().replaceAll("\n", "<br/>");
-                nov.setDescricao(promoConvert);
-            }
-        }
         request.setAttribute("pizzas", pizzas);
         request.setAttribute("doces", doces);
-        request.setAttribute("calzones", calzones);
-        request.setAttribute("novidades", novidades);
+        request.setAttribute("quatros", quatros);
+        request.setAttribute("bordas", bordas);
         request.setAttribute("promocoes", promocao);
         RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/index.jsp");
         dispatcher.forward(request, response);

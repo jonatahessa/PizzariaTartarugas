@@ -7,8 +7,8 @@ body {
 }
 
 @font-face {
-    font-family: 'Subway'; /*a name to be used later*/
-    src: url('../_fonts/Subway-Black.ttf'); /*URL to font*/
+    font-family: 'Turtle'; /*a name to be used later*/
+    src: url('../_fonts/Turtles.otf'); /*URL to font*/
 }
 
 hr.style6 {
@@ -23,7 +23,7 @@ hr.style6 {
       float: left;
       width: 100%;
       height: 80px;
-      background-color: #ebebeb;
+      background-color: #88df26;
       list-style: none;
       opacity: .9;
       position: fixed;
@@ -35,8 +35,7 @@ hr.style6 {
   }
 
   #menu ul li button {
-      background-color: #ebebeb;
-      color: #251d1d;
+      background-color: #88df26;
       text-decoration: none;
       height: 100%;
       float: left;
@@ -56,8 +55,9 @@ hr.style6 {
     background-color: #242424;
   }
 
-  #pazza-first {
-    padding-top: 90px;
+  #first {
+    padding-top: 100px;
+    padding-bottom: 30px;
   }
 }
 
@@ -66,20 +66,21 @@ hr.style6 {
       padding: 0px;
       margin: 0px;
       float: left;
-      background-color: #ebebeb;
+      background-color: #88df26;
       list-style: none;
       opacity: .9;
       z-index: 20;
   }
 
   #menu ul li button {
-      background-color: #ebebeb;
+      background-color: #88df26;
       color: #251d1d;
       text-decoration: none;
       height: 40px;
       float: left;
       width: 100%;
       font-weight: bold;
+      font-size: 25px;
       transition: 1s;
       border: none;
   }
@@ -96,6 +97,18 @@ hr.style6 {
   #faixa-contato {
     display: none;
   }
+
+  #first {
+    padding: 30px;
+  }
+}
+
+#first {
+    background: url(../_imagens/city.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #img-full {
@@ -110,20 +123,10 @@ hr.style6 {
   padding: 0;
 }
 
-#pazza-first h1 {
-  font-size: 100px;
-  margin: 0;
-  padding: 0;
-}
-
-#pazza-first h2 {
-  font-size: 60px;
-  margin: 0;
-  padding: 0;
-}
-
 #faixa-contato h2 {
   color: white;
+  font-weight: bold;
+  font-size: 55px;
 }
 
 #faixa-contato h3 {
@@ -133,21 +136,23 @@ hr.style6 {
 #faixa-contato a {
   color: white;
   white-space: nowrap;
+
 }
 
 .imagens-carousel {
   width: 100%;
 }
 
-#pazza-first {
-  background-color: #0fafff;
+#first {
+  background-color: #242424;
 }
 
-.font-subway {
-  font-family: 'Subway';
-  -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: #fff;
-  color: red;
+.font-turtle {
+  font-family: 'Prompt', sans-serif;
+  font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  color: #055c00;
 }
 
 .font-norican {
@@ -168,11 +173,13 @@ hr.style6 {
 }
 
 #fachada {
+  color: #055c00;
+  font-weight: bold;
   padding: 20px;
 }
 
 .sessoes-estilo {
-  background-color: white;
+  background-color: #88df26;
   opacity: 0.9;
 }
 
@@ -183,6 +190,7 @@ hr.style6 {
 }
 
 .paineis {
+  background-color: #e3e3e3;
   margin-top: 25px;
   padding: 10px;
 }
@@ -190,11 +198,17 @@ hr.style6 {
 .botoes-cardapio {
   border: none;
   background-color: transparent;
-  color: red;
+  color: #055c00;
+  font-family: 'Turtle';
   font-size: 40px;
   margin: 40px auto;
   display: block;
   transition: 1s;
+}
+
+.img-menu {
+  opacity: 1;
+  z-index: 150;
 }
 
 .botoes-cardapio:hover {
