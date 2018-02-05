@@ -16,7 +16,7 @@ hr.style6 {
 	border-top: 2px dotted #6D6D6D;
 }
 
-@media (min-width: 740px) {
+@media (min-width: 770px) {
   #menu ul {
       padding: 0px;
       margin: 0px;
@@ -61,7 +61,7 @@ hr.style6 {
   }
 }
 
-@media (max-width: 739px) {
+@media (max-width: 769px) {
   #menu ul {
       padding: 0px;
       margin: 0px;
@@ -100,6 +100,10 @@ hr.style6 {
 
   #first {
     padding: 30px;
+  }
+
+  .img-border {
+    display: none;
   }
 }
 

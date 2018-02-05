@@ -93,28 +93,44 @@
                 <h1 class="titulos display-4 font-turtle">Cardápio</h1>
                 <hr/>
 
-                <div class="col-12">
-                    <button type="button" class="botoes-cardapio" data-toggle="modal" data-target="#modal-pizzas">
-                        <img class="col-4 img-menu" src="./_imagens/mic.png" alt="Michelangelo"> <h3>Clique para abrir as Pizzas Salgadas</h3>
-                    </button>
+                <div class="row">
+                  <div class="img-border col-3">
+                    <img src="./_imagens/donatello-border.png" alt="Donatello">
+                  </div>
+
+                  <div class="col-xs-12 col-sm-12 col-lg-6">
+                      <button type="button" class="col-12 botoes-cardapio" data-toggle="modal" data-target="#modal-pizzas">
+                          <img class="col-5 img-menu" src="./_imagens/mic.png" alt="Michelangelo"> <h3>Clique para abrir as Pizzas Salgadas</h3>
+                      </button>
+
+                      <button type="button" class="col-12 botoes-cardapio" data-toggle="modal" data-target="#modal-quatro">
+                          <img class="col-5 img-menu" src="./_imagens/leo.png" alt="Michelangelo"> <h3>Clique para abrir as Pizzas 4 Queijos</h3>
+                      </button>
+                  </div>
+
+                  <div class="img-border col-3">
+                    <img class="" src="./_imagens/michelangelo-border.png" alt="Michelangelo">
+                  </div>
                 </div>
 
-                <div class="col-12">
-                    <button type="button" class="botoes-cardapio" data-toggle="modal" data-target="#modal-quatro">
-                        <img class="col-4 img-menu" src="./_imagens/leo.png" alt="Michelangelo"> <h3>Clique para abrir as Pizzas 4 Queijos</h3>
-                    </button>
-                </div>
+                <div class="row">
+                  <div class="img-border col-3">
+                    <img src="./_imagens/leo-border.png" alt="Leonardo">
+                  </div>
 
-                <div class="col-12">
-                    <button type="button" class="botoes-cardapio" data-toggle="modal" data-target="#modal-doces">
-                        <img class="col-4 img-menu" src="./_imagens/raf.png" alt="Michelangelo"> <h3>Clique para abrir as Pizzas Doces</h3>
-                    </button>
-                </div>
+                  <div class="col-xs-12 col-sm-12 col-lg-6">
+                      <button type="button" class="col-12 botoes-cardapio" data-toggle="modal" data-target="#modal-doces">
+                          <img class="col-5 img-menu" src="./_imagens/raf.png" alt="Michelangelo"> <h3>Clique para abrir as Pizzas Doces</h3>
+                      </button>
 
-                <div class="col-12">
-                    <button type="button" class="botoes-cardapio" data-toggle="modal" data-target="#modal-bordas">
-                        <img class="col-5 img-menu" src="./_imagens/don.png" alt="Michelangelo"> <h3>Clique para abrir as Bordas</h3>
-                    </button>
+                      <button type="button" class="col-12 botoes-cardapio" data-toggle="modal" data-target="#modal-bordas">
+                          <img class="col-5 img-menu" src="./_imagens/don.png" alt="Michelangelo"> <h3>Clique para abrir as Bordas</h3>
+                      </button>
+                  </div>
+
+                  <div class="img-border col-3">
+                    <img src="./_imagens/raphael-border.png" alt="Raphael">
+                  </div>
                 </div>
             </div>
         </div>
